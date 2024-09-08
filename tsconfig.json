@@ -6,12 +6,15 @@
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "jsx": "react" // sau "react-jsx" dacă folosești React 17 sau mai recent
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "types/**/*.d.ts", 
+    "declaration.d.ts" 
   ]
 }
